@@ -16,17 +16,17 @@
         <content type="html"><![CDATA[<p>每次開新專案時，都會固定導入一些東西，每次點點點都覺得好煩？<br>
 <!-- -->透過 VCC 的 Templates 解決你的困擾！</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="Step">步驟<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Step" class="hash-link" aria-label="Direct link to 步驟" title="Direct link to 步驟">​</a></h2>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Find-Templates">找到 Templates 資料夾位置<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Find-Templates" class="hash-link" aria-label="Direct link to 找到 Templates 資料夾位置" title="Direct link to 找到 Templates 資料夾位置">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Find_Templates">找到 Templates 資料夾位置<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Find_Templates" class="hash-link" aria-label="Direct link to 找到 Templates 資料夾位置" title="Direct link to 找到 Templates 資料夾位置">​</a></h2>
 <p>首先，打開 VCC &gt; Settings &gt; Files and Folders &gt; 點擊 <code>Templates</code><br>
 <img decoding="async" loading="lazy" alt="Templates 位置" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/templates-99c76c3ed6ef973b57588806291aa995.png" width="3840" height="2040" class="img_ev3q"><br>
 <!-- -->此時會跳出一個資料夾，這是拿來放我們自己的範本的<br>
 <img decoding="async" loading="lazy" alt="User Templates 資料夾位置" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/uesr_templates-83c2ae40f4e0a8d4c5265bd9b27a270c.png" width="2162" height="555" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Copy-vrc-template-and-paste-it-to-templates">複製官方的範本到 Templates 資料夾<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Copy-vrc-template-and-paste-it-to-templates" class="hash-link" aria-label="Direct link to 複製官方的範本到 Templates 資料夾" title="Direct link to 複製官方的範本到 Templates 資料夾">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Copy_vrc_template_and_paste_it_to_templates">複製官方的範本到 Templates 資料夾<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Copy_vrc_template_and_paste_it_to_templates" class="hash-link" aria-label="Direct link to 複製官方的範本到 Templates 資料夾" title="Direct link to 複製官方的範本到 Templates 資料夾">​</a></h2>
 <p>我們再開一個資料夾，路徑複製上面的就好，然後返回上一級，點擊 <code>VRCTemlates</code>，這裡是 VRChat 官方的範本，選個你要的複製，在我們自己的範本資料夾貼上<br>
 <img decoding="async" loading="lazy" alt="VRChat Templates 資料夾位置" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/vrc_templates-cd056be1a60e6b5a255f8ca00912f4de.png" width="2860" height="723" class="img_ev3q"><br>
 <!-- -->這邊我選擇 Avatar 範本，改下名稱避免混亂，比如：<code>MyAvatarTemplate</code>，建議全英文<br>
 <img decoding="async" loading="lazy" alt="重命名示意圖" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/rename-9cb2ead074a3b48c753172813d5a234d.png" width="2103" height="572" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Edit-package.json">修改 package.json<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Edit-package.json" class="hash-link" aria-label="Direct link to 修改 package.json" title="Direct link to 修改 package.json">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Edit_package.json">修改 package.json<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Edit_package.json" class="hash-link" aria-label="Direct link to 修改 package.json" title="Direct link to 修改 package.json">​</a></h2>
 <p>改完名後點進去，打開 <code>package.json</code>，用什麼打開都沒差，只要能改內容就好，我是用記事本<br>
 <img decoding="async" loading="lazy" alt="開啟方法示意圖" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/edit-32f139360b85e45cd248e89f81d745b8.png" width="2853" height="1629" class="img_ev3q"><br>
 <!-- -->開啟後內容如下<br>
@@ -37,15 +37,15 @@
 <li><code>displatName</code>：顯示在 VCC 裡的名稱，這裡我取為「常用 Avatar 範本-教學版」</li>
 <li><code>description</code>：對這個範本的描述，可以把自己加了甚麼寫下來當備註</li>
 </ul>
-<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_BuS1"><p><em><strong>請小心務必不要刪掉前後的"，出事不負責</strong></em></p></div></div>
+<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_BuS1"><p><em><strong>請小心務必不要刪掉前後的「"」，出事不負責</strong></em></p></div></div>
 <p>改好後的樣子：<br>
 <img decoding="async" loading="lazy" alt="自定義 package.json 內容" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/costume_content-0bdb71c531fda172607e5ef941153b9d.png" width="1273" height="642" class="img_ev3q"><br>
 <!-- -->改完後記得存檔（快捷鍵 <code>Ctrl S</code>），然後就可以關掉這個檔案了。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Check-package.json-work">確認 package.json 運作正常<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Check-package.json-work" class="hash-link" aria-label="Direct link to 確認 package.json 運作正常" title="Direct link to 確認 package.json 運作正常">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Check_package.json_work">確認 package.json 運作正常<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Check_package.json_work" class="hash-link" aria-label="Direct link to 確認 package.json 運作正常" title="Direct link to 確認 package.json 運作正常">​</a></h2>
 <p>此時如果我們回到創建新專案的頁面，你會看到範本已經出現了
 <img decoding="async" loading="lazy" alt="template 出現位置" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/template_apper-056c27cd3b0740c922eb169fefc98ccd.png" width="3840" height="2040" class="img_ev3q">
 不過這時候的範本和官方預設的一模一樣，我們還需要加上自己想加的東西。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Add-custome-vpm-package">添加自定義 vpm 包<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Add-custome-vpm-package" class="hash-link" aria-label="Direct link to 添加自定義 vpm 包" title="Direct link to 添加自定義 vpm 包">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="Add_custome_vpm_package">添加自定義 vpm 包<a href="https://yelandiealma.github.io/yldwebsite/en/blog/VCC_Templates_Tutorial#Add_custome_vpm_package" class="hash-link" aria-label="Direct link to 添加自定義 vpm 包" title="Direct link to 添加自定義 vpm 包">​</a></h2>
 <p>回到資料夾，返回上一級，進入 <code>Packages</code> 資料夾，找到 <code>vpm-manifest.json</code>，右鍵刪除
 <img decoding="async" loading="lazy" alt="刪除示意圖" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/delete-f8340efb638a238c98de374a6a8a8139.png" width="2865" height="711" class="img_ev3q">
 然後先打開我們隨便一個已有的專案資料夾，最好是已經有全部導入你想加在範本裡的東西的，一樣找到<code>vpm-manifest.json</code>文件，將這個文件複製貼上到上面的位置，完成後打開它
@@ -59,7 +59,7 @@
 </ul>
 <div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_BuS1"><p><em><strong>注意：當你看到 <code>locked</code> 這個詞出現，就不要改它下面的部分了</strong></em>
 <img decoding="async" loading="lazy" alt="lock 示意圖" src="https://yelandiealma.github.io/yldwebsite/en/assets/images/lock-0423c6b4a319a5843733ad8a8c4dec91.png" width="1164" height="379" class="img_ev3q"></p></div></div>
-<p>改完後一樣記得儲存，然後就完成啦～開一個新專案測試吧</p>]]></content>
+<p>改完後一樣記得儲存，然後就完成啦～開一個新專案測試吧👍</p>]]></content>
         <category label="VCC" term="VCC"/>
     </entry>
     <entry>
