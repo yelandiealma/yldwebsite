@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4522],{8775:e=>{e.exports=JSON.parse('{"label":"VCC","permalink":"/yldwebsite/en/blog/tags/vcc","allTagsPath":"/yldwebsite/en/blog/tags","count":1,"unlisted":false}')}}]);
