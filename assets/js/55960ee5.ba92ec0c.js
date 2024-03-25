@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[151],{350:e=>{e.exports=JSON.parse('[{"label":"vrchat","permalink":"/yldwebsite/docs/tags/vrchat","count":2},{"label":"VCC","permalink":"/yldwebsite/docs/tags/vcc","count":1}]')}}]);
