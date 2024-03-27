@@ -2,19 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yelandiealma.github.io/yldwebsite/blog</id>
     <title>夜嵐蝶 Alma 的窩 Blog</title>
-    <updated>2024-03-25T00:00:00.000Z</updated>
+    <updated>2024-03-27T20:26:00.529Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yelandiealma.github.io/yldwebsite/blog"/>
     <subtitle>夜嵐蝶 Alma 的窩 Blog</subtitle>
     <icon>https://yelandiealma.github.io/yldwebsite/img/yldicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[2024-03-25]]></title>
-        <id>https://yelandiealma.github.io/yldwebsite/blog/2024/03/25/</id>
-        <link href="https://yelandiealma.github.io/yldwebsite/blog/2024/03/25/"/>
+        <title type="html"><![CDATA[推特預覽圖和實際不同]]></title>
+        <id>https://yelandiealma.github.io/yldwebsite/blog/thumbnail-promble</id>
+        <link href="https://yelandiealma.github.io/yldwebsite/blog/thumbnail-promble"/>
+        <updated>2024-03-27T20:26:00.529Z</updated>
+        <summary type="html"><![CDATA[當我在推文附上這裡的網址時，出現的預覽圖是原生的預覽]]></summary>
+        <content type="html"><![CDATA[<p>當我在推文附上這裡的網址時，出現的預覽圖是原生的預覽<br>
+<!-- -->但我明明改掉了...順帶一提 Discord 看是正常的。
+<img decoding="async" loading="lazy" alt="推文截圖" src="https://yelandiealma.github.io/yldwebsite/assets/images/thumbnail-promble1-f8e89add24d7345c39fb66c3598db4a9.png" width="1502" height="1112" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="dc 截圖" src="https://yelandiealma.github.io/yldwebsite/assets/images/thumbnail-promble2-f84446e09756038974dfb414863e98d4.png" width="1372" height="957" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>夜嵐蝶 Alma</name>
+            <uri>https://github.com/yelandiealma</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 label 時網址為非原文]]></title>
+        <id>https://yelandiealma.github.io/yldwebsite/blog/whem-use-label-url-promble</id>
+        <link href="https://yelandiealma.github.io/yldwebsite/blog/whem-use-label-url-promble"/>
         <updated>2024-03-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天上傳了 VRChat 相關網站懶人包和 VRChat 相關商品購買小知識]]></summary>
-        <content type="html"><![CDATA[<p>今天上傳了 <a href="https://yelandiealma.github.io/yldwebsite/docs/other/vrchat-related-website-cheat-sheet" target="_blank" rel="noopener noreferrer">VRChat 相關網站懶人包</a>和 <a href="https://yelandiealma.github.io/yldwebsite/docs/other/vrchat-shopping-tips" target="_blank" rel="noopener noreferrer">VRChat 相關商品購買小知識</a></p>
-<p>遇到了一個問題：我是用 <code>label</code> 控制左邊目錄的名稱</p>
+        <summary type="html"><![CDATA[今天上傳了 VRChat 相關網站懶人包和 VRChat 相關商品購買小知識時，發現了一個問題。]]></summary>
+        <content type="html"><![CDATA[<p>今天上傳了 <a href="https://yelandiealma.github.io/yldwebsite/docs/other/vrchat-related-website-cheat-sheet" target="_blank" rel="noopener noreferrer">VRChat 相關網站懶人包</a>和 <a href="https://yelandiealma.github.io/yldwebsite/docs/other/vrchat-shopping-tips" target="_blank" rel="noopener noreferrer">VRChat 相關商品購買小知識</a>時，發現了一個問題。<br>
+<!-- -->我是用 <code>label</code> 控制左邊目錄的名稱</p>
 <div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_Ktv7">/other/_category_.json</div><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv codeBlockLinesWithNumbering_o6Pm"><span class="token-line codeLine_lJS_" style="color:#393A34"><span class="codeLineNumber_Tfdd"></span><span class="codeLineContent_feaV"><span class="token plain">{</span></span><br></span><span class="token-line codeLine_lJS_" style="color:#393A34"><span class="codeLineNumber_Tfdd"></span><span class="codeLineContent_feaV"><span class="token plain">  "label": "其他",</span></span><br></span><span class="token-line codeLine_lJS_" style="color:#393A34"><span class="codeLineNumber_Tfdd"></span><span class="codeLineContent_feaV"><span class="token plain">  "link": {</span></span><br></span><span class="token-line codeLine_lJS_" style="color:#393A34"><span class="codeLineNumber_Tfdd"></span><span class="codeLineContent_feaV"><span class="token plain">    "type": "generated-index"</span></span><br></span><span class="token-line codeLine_lJS_" style="color:#393A34"><span class="codeLineNumber_Tfdd"></span><span class="codeLineContent_feaV"><span class="token plain">  }</span></span><br></span><span class="token-line codeLine_lJS_" style="color:#393A34"><span class="codeLineNumber_Tfdd"></span><span class="codeLineContent_feaV"><span class="token plain">}</span></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="複製代碼至剪貼簿" title="複製" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>但單點資料夾時，路徑會變成該名稱而不是原文
 <img decoding="async" loading="lazy" alt="示意圖 1" src="https://yelandiealma.github.io/yldwebsite/assets/images/other-folder-a0994a448216d9b9c92505a67a708b0b.png" width="1322" height="740" class="img_ev3q">
@@ -32,7 +47,10 @@
         <link href="https://yelandiealma.github.io/yldwebsite/blog/welcome"/>
         <updated>2024-03-06T09:43:39.352Z</updated>
         <summary type="html"><![CDATA[這裡主要是塞一些小文章，比較多資料的會移到隔壁文檔]]></summary>
-        <content type="html"><![CDATA[<p>這裡主要是塞一些小文章，比較多資料的會移到隔壁<a href="https://yelandiealma.github.io/yldwebsite/docs/intro" target="_blank" rel="noopener noreferrer">文檔</a></p>]]></content>
+        <content type="html"><![CDATA[<blockquote>
+<p>這裡主要是塞一些小文章，比較多資料的會移到隔壁<a href="https://yelandiealma.github.io/yldwebsite/docs/intro" target="_blank" rel="noopener noreferrer">文檔</a></p>
+</blockquote>
+<p>雖然一開始是這樣打算的，但現在變成遇到問題時的紀錄點了XDD</p>]]></content>
         <author>
             <name>夜嵐蝶 Alma</name>
             <uri>https://github.com/yelandiealma</uri>
